@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:controller="org.epn.crudproductosmelvasuarez.controlador.CatalogosProdController"
+      prefHeight="637.0"
+      prefWidth="580.0"
+      style="-fx-background-color: #749CEA;"
+      xmlns="http://javafx.com/javafx/26"
+      xmlns:fx="http://javafx.com/fxml/1">
+
+    <children>
+
+        <Label layoutX="140" layoutY="40" text="CATÁLOGO DE PRODUCTOS">
+            <font>
+                <Font size="24"/>
+            </font>
+        </Label>
+
+        <Label layoutX="90" layoutY="120" text="ID"/>
+        <Label layoutX="90" layoutY="160" text="Código"/>
+        <Label layoutX="90" layoutY="200" text="Nombre"/>
+        <Label layoutX="90" layoutY="240" text="Precio"/>
+
+        <TextField fx:id="txtId" layoutX="220" layoutY="120"/>
+        <TextField fx:id="txtCodigo" layoutX="220" layoutY="160"/>
+        <TextField fx:id="txtNombre" layoutX="220" layoutY="200"/>
+        <TextField fx:id="txtPrecio" layoutX="220" layoutY="240"/>
+
+        <TableView fx:id="tablaProductos"
+                   layoutX="70"
+                   layoutY="330"
+                   prefHeight="200"
+                   prefWidth="430">
+
+            <columns>
+                <TableColumn fx:id="colId" text="ID" prefWidth="60"/>
+                <TableColumn fx:id="colCodigo" text="Código" prefWidth="100"/>
+                <TableColumn fx:id="colProducto" text="Producto" prefWidth="170"/>
+                <TableColumn fx:id="colPrecio" text="Precio" prefWidth="100"/>
+            </columns>
+
+        </TableView>
+
+    </children>
+</Pane>

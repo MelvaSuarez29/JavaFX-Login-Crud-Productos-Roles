@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #6766D6;"
+      xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.epn.crudproductosmelvasuarez.controlador.LoginController">
+   <children>
+      <Label layoutX="185.0" layoutY="41.0" text="Bienvenidos al Sistema" textFill="#faf3f3">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="185.0" layoutY="158.0" text="Contraseña:" textFill="#f7f7f7">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="186.0" layoutY="111.0" text="Usuario:" textFill="#f7eeee">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUsuario" layoutX="285.0" layoutY="108.0" prefWidth="200.0" />
+      <PasswordField fx:id="txtContrasena" layoutX="285.0" layoutY="155.0" prefWidth="200.0" />
+      <Label layoutX="185.0" layoutY="208.0" text="Rol:" textFill="#f7f5f5">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cmbRol" layoutX="284.0" layoutY="205.0" prefWidth="200.0" promptText="Seleccionar Rol" />
+      <Button fx:id="btnIniciarSesion" layoutX="171.0" layoutY="279.0" mnemonicParsing="false"
+              onAction="#iniciarSesion" prefWidth="150.0" text="Iniciar Sesión" />
+      <Button fx:id="btnRegistrarse" layoutX="346.0" layoutY="279.0" mnemonicParsing="false"
+              onAction="#registrarse" prefWidth="150.0" text="Registrarse" />
+   </children>
+</Pane>
