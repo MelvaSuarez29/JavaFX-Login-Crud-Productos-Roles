@@ -108,7 +108,7 @@ Abrir el proyecto como **Maven Project** en IntelliJ IDEA.
 Editar la clase `Conexion.java` y configurar las credenciales de MySQL:
 
 ```java
-private static final String JDBC_URL = "jdbc:mysql://localhost:3307/control_productos";
+private static final String JDBC_URL = "jdbc:mysql://localhost:3306/control_productos";
 private static final String JDBC_USER = "tu_usuario";
 private static final String JDBC_PASSWORD = "tu_contraseña";
 ```
