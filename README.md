@@ -179,7 +179,7 @@ src
 
 ## Autor
 
-**Melva Suárez**
+**Melva Suárez**  
 Asignatura: Programación Orientada a Objetos
 
 ---
