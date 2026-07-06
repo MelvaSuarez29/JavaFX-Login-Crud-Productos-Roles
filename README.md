@@ -180,10 +180,7 @@ src
 ## Autor
 
 **Melva Suárez**
-
-Escuela Politécnica Nacional - ESFOT
-
-Programación Orientada a Objetos
+Asignatura: Programación Orientada a Objetos
 
 ---
 
